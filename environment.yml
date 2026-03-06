@@ -39,16 +39,16 @@ dependencies:
   - ffmpeg==7.1.1
 
   - pip:
-    # From https://github.com/berkeley-dsep-infra/datahub/issues/1639
-    - opencv-python==4.9.0.80
-    - PyQt5==5.15.11
-    # From https://github.com/berkeley-dsep-infra/datahub/issues/1363#issuecomment-598916469
-    - lcapy==0.96
-    # For desktop environment
-    - jupyter-remote-desktop-proxy==3.0.1
-    - git+https://github.com/shaneknapp/python-popularity-contest.git@add-error-handling
-    - git-credential-helpers==0.2
-    # Marimo integration for EECS 16A
-    - marimo==0.14.16
-    - click==8.2.1
-    - git+https://github.com/b-data/jupyter-marimo-proxy.git@jupyterlab-docker-stack
+      # From https://github.com/berkeley-dsep-infra/datahub/issues/1639
+      - opencv-python==4.9.0.80
+      - PyQt5==5.15.11
+      # From https://github.com/berkeley-dsep-infra/datahub/issues/1363#issuecomment-598916469
+      - lcapy==0.96
+      # For desktop environment
+      - jupyter-remote-desktop-proxy==3.0.1
+      - git+https://github.com/shaneknapp/python-popularity-contest.git@add-error-handling
+      - git-credential-helpers==0.2
+      # Marimo integration for EECS 16A
+      - marimo==0.14.16
+      - click==8.2.1
+      - git+https://github.com/b-data/jupyter-marimo-proxy.git@jupyterlab-docker-stack
